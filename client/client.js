@@ -1,0 +1,1 @@
+window.fetch('http://0.0.0.0:3000/get-data').then(result => result.json()).then(result => console.log(result));
